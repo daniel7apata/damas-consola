@@ -13,12 +13,12 @@ struct jugadores {
 void Mostrar_Instrucciones() {
 	Console::Beep();
 	setlocale(LC_ALL, "spanish");
-	cout << "SOBRE CÓMO JUGAR ESTE JUEGO:" << endl << endl;
+	cout << "SOBRE CÃ“MO JUGAR ESTE JUEGO:" << endl << endl;
 	cout << "Al inicio de la partida cada jugador\n";
-	cout << "ingresará su nombre y escogerá las\n";
+	cout << "ingresarÃ¡ su nombre y escogerÃ¡ las\n";
 	cout << "fichas que va a usar\n";
-	cout << "Para mover una ficha ingrese primero su posición\n";
-	cout << "actual, después, ingrese las nuevas coordenadas\n";
+	cout << "Para mover una ficha ingrese primero su posiciÃ³n\n";
+	cout << "actual, despuÃ©s, ingrese las nuevas coordenadas\n";
 	cout << "Gana el juego quien se quede sin fichas al final de la partida\n";
 	cout << endl << endl;
 	cout << "SOBRE EL JUEGO DAMAS:" << endl << endl;
@@ -30,19 +30,19 @@ void Mostrar_Instrucciones() {
 	cout << "Se juega por turnos alternos.Empieza a jugar quien tiene\n";
 	cout << "las fichas blancas**.En su turno cada jugador mueve\n";
 	cout << "una pieza propia. Las fichas se mueven(cuando no comen)\n";
-	cout << "una posición hacia delante(nunca hacia atrás) en diagonal\n";
-	cout << "a la derecha o a la izquierda, a una posición adyacente vacía. \n";
+	cout << "una posiciÃ³n hacia delante(nunca hacia atrÃ¡s) en diagonal\n";
+	cout << "a la derecha o a la izquierda, a una posiciÃ³n adyacente vacÃ­a. \n";
 	cout << "Si una ficha se encuentra en una casilla diagonal contigua\n";
-	cout << "a otra del contrario(que está delante) estando la posterior\n";
-	cout << "vacía y en turno de juego, puede saltar por encima de esta \n";
-	cout << "hasta la casilla vacía, retirando la ficha del contrario del\n";
-	cout << "tablero. Si después de realizado un salto(comer ficha), la\n";
+	cout << "a otra del contrario(que estÃ¡ delante) estando la posterior\n";
+	cout << "vacÃ­a y en turno de juego, puede saltar por encima de esta \n";
+	cout << "hasta la casilla vacÃ­a, retirando la ficha del contrario del\n";
+	cout << "tablero. Si despuÃ©s de realizado un salto(comer ficha), la\n";
 	cout << "ficha llega a una casilla en las mismas condiciones de la\n";
-	cout << "anterior, puede continuar saltando y así todas las veces en\n";
-	cout << "las que sea posible(captura múltiple). Si una ficha llega\n";
+	cout << "anterior, puede continuar saltando y asÃ­ todas las veces en\n";
+	cout << "las que sea posible(captura mÃºltiple). Si una ficha llega\n";
 	cout << "hasta el borde del lado contrario del tablero, se convierte\n";
-	cout << "en reina.La reina se mueve también una posición en diagonal,\n";
-	cout << "pero hacia adelante y hacia atrás. La reina siempre tiene\n";
+	cout << "en reina.La reina se mueve tambiÃ©n una posiciÃ³n en diagonal,\n";
+	cout << "pero hacia adelante y hacia atrÃ¡s. La reina siempre tiene\n";
 	cout << "prioridad para comer antes que cualquiera otra ficha.\n";
 	cout << "Una partida finaliza cuando se da una de las siguientes\n";
 	cout << "situaciones:\n";
@@ -51,7 +51,7 @@ void Mostrar_Instrucciones() {
 	cout << "Un jugador no puede mover llegado su turno, puesto que todas las \n";
 	cout << "fichas que le quedan estan bloqueadas. Este jugador pierde.";
 	cout << "\n\n(**) En este juego usaremos fichas rojas en lugar de blancas\n";
-	cout << "para que puedan distinguirse más facilmente";
+	cout << "para que puedan distinguirse mÃ¡s facilmente";
 }
 void Solicitar_Cantidad_De_Letras_J1(jugadores * jugador) {
 	do {
@@ -426,7 +426,7 @@ void Determinar_Imprimir_Ganador(jugadores* jugador, char * nombre1, char * nomb
 	if (jugador[0].puntuacion < jugador[1].puntuacion)
 		cout << jugadaj2 << "jugadas!";
 
-	cout << "\nLa partida inició en" << hora_inicial << " y terminó en " << hora_final;
+	cout << "\nLa partida iniciÃ³ en" << hora_inicial << " y terminÃ³ en " << hora_final;
 }
 void Ejecutar_Juego() {
 	int x1 = 0, y1 = 0, x2 = 0, y2=0, turno=1, jugadaj1=0, jugadaj2=0;	
