@@ -1,0 +1,16 @@
+﻿  Damas.cpp
+C:\Users\daniz\source\repos\JuegoDamas\JuegoDamas\Damas.cpp(75,2): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+C:\Users\daniz\source\repos\JuegoDamas\JuegoDamas\Damas.cpp(77,2): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+C:\Users\daniz\source\repos\JuegoDamas\JuegoDamas\Damas.cpp(99,4): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+C:\Users\daniz\source\repos\JuegoDamas\JuegoDamas\Damas.cpp(106,2): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+C:\Users\daniz\source\repos\JuegoDamas\JuegoDamas\Damas.cpp(108,2): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+C:\Users\daniz\source\repos\JuegoDamas\JuegoDamas\Damas.cpp(302,2): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+C:\Users\daniz\source\repos\JuegoDamas\JuegoDamas\Damas.cpp(464,3): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+C:\Users\daniz\source\repos\JuegoDamas\JuegoDamas\Damas.cpp(548,7): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _kbhit. See online help for details.
+C:\Users\daniz\source\repos\JuegoDamas\JuegoDamas\Damas.cpp(524,6): warning C4101: 'opt': variable local sin referencia
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  Generando código...
+C:\Users\daniz\source\repos\JuegoDamas\JuegoDamas\Damas.cpp(447): warning C4700: se utilizó la variable local 'q2' sin inicializar
+C:\Users\daniz\source\repos\JuegoDamas\JuegoDamas\Damas.cpp(447): warning C4700: se utilizó la variable local 'q1' sin inicializar
+  Damas.obj : se encontró un módulo MSIL; vinculación incremental deshabilitada para MSIL; ejecutando vínculo completo
+  JuegoDamas.vcxproj -> C:\Users\daniz\source\repos\JuegoDamas\x64\Debug\JuegoDamas.exe
